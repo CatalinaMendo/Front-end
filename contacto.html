@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contacto – El Noticazo</title>
+  <meta name="description" content="El Noticazo: noticias claras y verificadas de Colombia y el mundo.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="contacto">
+  <a class="saltar" href="#principal">Saltar al contenido</a>
+  <header id="site-header" class="cabecera"></header>
+  <main id="principal" class="contenedor">
+    <section class="acerca">
+      <h1 class="titulo-rojo grande">Conoce un poco sobre nosotros</h1>
+      <p>Somos un medio digital que le apuesta a contar lo que pasa en Bogotá y en Colombia con rigor y cercanía. Nuestro equipo trabaja día a día para acercarte las noticias más relevantes de la ciudad: economía, cultura, movilidad, seguridad y los servicios que afectan tu día a día.</p>
+      <p>Creemos que estar bien informado es un derecho, no un lujo. Por eso nos esforzamos en verificar cada dato, contrastar cada fuente y presentar la información de forma clara y accesible.</p>
+    </section>
+
+    <section aria-labelledby="t-contacto">
+      <h2 id="t-contacto" class="titulo-indigo">Ponte en contacto con nosotros</h2>
+      <form id="form-contacto" class="formulario" novalidate>
+        <div class="fila">
+          <div class="campo">
+            <label for="c-nombre">Nombre</label>
+            <input id="c-nombre" name="nombre" placeholder="Jane" data-campo autocomplete="given-name" aria-describedby="error-c-nombre">
+            <p class="error" id="error-c-nombre"></p>
+          </div>
+          <div class="campo">
+            <label for="c-apellido">Apellido</label>
+            <input id="c-apellido" name="apellido" placeholder="Smitherton" data-campo autocomplete="family-name" aria-describedby="error-c-apellido">
+            <p class="error" id="error-c-apellido"></p>
+          </div>
+        </div>
+        <div class="campo">
+          <label for="c-email">Email</label>
+          <input id="c-email" name="email" type="email" placeholder="correo@ejemplo.com" data-campo autocomplete="email" aria-describedby="error-c-email">
+          <p class="error" id="error-c-email"></p>
+        </div>
+        <div class="campo">
+          <label for="c-mensaje">Deja aquí tu mensaje</label>
+          <textarea id="c-mensaje" name="mensaje" rows="6" placeholder="Escribe aquí tu mensaje, sugerencia o reclamo." data-campo aria-describedby="error-c-mensaje"></textarea>
+          <p class="error" id="error-c-mensaje"></p>
+        </div>
+        <button class="btn btn-negro ancho" type="submit">Enviar</button>
+        <p id="estado-contacto" class="estado" role="status"></p>
+      </form>
+    </section>
+  </main>
+  <div id="site-cta" class="agradecimiento"></div>
+  <footer id="site-footer" class="pie"></footer>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>

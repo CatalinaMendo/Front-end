@@ -1,0 +1,90 @@
+{
+  "noticias": [
+    {
+      "id": "concejo-ciudad-inteligente",
+      "titulo": "El Concejo de Bogotá aprobó en segundo debate el proyecto 'Ciudad Inteligente'",
+      "categoria": "Economía",
+      "fecha": "2026-09-28",
+      "fuente": "CableNoticias",
+      "url": "https://www.cablenoticias.com/noticias/concejo-bogota-aprobo-en-segundo-debate-proyecto-del-alcalde-carlos-fernando-galan",
+      "imagen": "img/concejo-ciudad-inteligente.jpg",
+      "resumen": "La iniciativa del alcalde Carlos Fernando Galán ajusta el ICA y el aporte de alumbrado, y ofrece alivios a más de dos millones de contribuyentes.",
+      "contenido": [
+        "La Plenaria del Concejo de Bogotá aprobó en segundo debate, el 28 de septiembre, el proyecto de Acuerdo 'Ciudad Inteligente', impulsado por la Administración del alcalde Carlos Fernando Galán.",
+        "La iniciativa contempla alivios para más de dos millones de contribuyentes y ahora pasa a sanción del alcalde. Las nuevas tarifas del ICA y del aporte de alumbrado empezarían a regir a partir de 2027.",
+        "Según explicó la Alcaldía antes de la votación, el ajuste del ICA sube para pocos sectores, como el financiero y la comercialización de vehículos, tabaco y alcohol, y baja para la mayoría de los comercios de la ciudad."
+      ]
+    },
+    {
+      "id": "bts-huesped-honor-bogota",
+      "titulo": "BTS será huésped de honor de Bogotá durante su primera visita a Colombia",
+      "categoria": "Cultura",
+      "fecha": "2026-09-26",
+      "fuente": "Infobae",
+      "url": "https://www.infobae.com/colombia/2026/09/26/bts-sera-huesped-de-honor-de-bogota-durante-su-primera-visita-a-colombia/",
+      "imagen": "img/bts-huesped-honor-bogota.jpg",
+      "resumen": "La Alcaldía preparará un recibimiento institucional para la agrupación surcoreana, que se presentará en El Campín el 2 y 3 de octubre.",
+      "contenido": [
+        "La Alcaldía de Bogotá anunció que reconocerá como huéspedes de honor a los siete integrantes de BTS, que llegan a la ciudad para dos conciertos en El Campín dentro de su gira mundial.",
+        "El anuncio, confirmado por el alcalde Carlos Fernando Galán, surgió tras una campaña de la comunidad de seguidores del grupo en el país, que pidió a la Alcaldía preparar un recibimiento institucional.",
+        "Las presentaciones están programadas para el 2 y el 3 de octubre de 2026 y marcarán la primera vez que la agrupación se presenta en Colombia."
+      ]
+    },
+    {
+      "id": "metro-bogota-avance-82",
+      "titulo": "La Línea 1 del metro de Bogotá supera el 82 % de avance",
+      "categoria": "Movilidad",
+      "fecha": "2026-09-25",
+      "fuente": "Bogota.gov.co",
+      "url": "https://bogota.gov.co/mi-ciudad/movilidad/metro-cables-y-nuevas-vias-para-futuro-de-bogota-y-cundinamarca-2026",
+      "imagen": "img/metro-bogota-avance-82.jpg",
+      "resumen": "El alcalde Galán presentó los avances del metro y otros proyectos de movilidad regional en un foro sobre transporte.",
+      "contenido": [
+        "Durante el Foro Movilidad y Transporte: Futuro Estratégico, el alcalde Carlos Fernando Galán presentó los principales avances de la Línea 1 del metro de Bogotá y su integración con la región.",
+        "Según explicó, la construcción de la primera línea supera el 82 % de ejecución, y la meta es tenerla operando para todos los bogotanos en marzo de 2028.",
+        "El alcalde también mencionó otros proyectos de movilidad regional, entre ellos el puente Tibanica, la extensión de la avenida La Esperanza hacia Funza y estudios para un tercer carril en la calle 80."
+      ]
+    },
+    {
+      "id": "megaoperativo-sur-bogota",
+      "titulo": "36 personas capturadas en megaoperativos contra la delincuencia al sur de Bogotá",
+      "categoria": "Seguridad",
+      "fecha": "2026-09-28",
+      "fuente": "CableNoticias",
+      "url": "https://www.cablenoticias.com/noticias/concejo-bogota-aprobo-en-segundo-debate-proyecto-del-alcalde-carlos-fernando-galan",
+      "imagen": "img/megaoperativo-sur-bogota.jpg",
+      "resumen": "Las autoridades reportaron capturas en operativos realizados en localidades del sur de la capital.",
+      "contenido": [
+        "Autoridades de Bogotá reportaron la captura de 36 personas en megaoperativos contra la delincuencia realizados en localidades del sur de la capital.",
+        "El reporte hace parte de las acciones que adelantan la Policía Metropolitana y la Alcaldía para atender la seguridad en distintas zonas de la ciudad."
+      ]
+    },
+    {
+      "id": "sin-racionamiento-agua-bogota",
+      "titulo": "Bogotá garantiza el abastecimiento de agua pese al fenómeno de El Niño",
+      "categoria": "Ciudad",
+      "fecha": "2026-09-17",
+      "fuente": "Reporteros Asociados",
+      "url": "https://www.reporterosasociados.com.co/2026/09/alcalde-galan-garantiza-que-bogota-no-tendra-racionamiento-de-agua/",
+      "imagen": "img/sin-racionamiento-agua-bogota.jpg",
+      "resumen": "El alcalde Galán aseguró que no hay riesgo de racionamiento y explicó las medidas para enfrentar el fenómeno de El Niño 2026.",
+      "contenido": [
+        "En el 18.º Congreso Anual de Energía de Acolgen, el alcalde Carlos Fernando Galán presentó las decisiones adoptadas para garantizar el abastecimiento de agua de Bogotá durante el fenómeno de El Niño 2026.",
+        "Señaló que el sistema Chingaza se encuentra al 95 % de su capacidad y que la finalización de obras en la planta de Tibitoc permitió distribuir mejor las fuentes de abastecimiento.",
+        "El alcalde también pidió acelerar dos redes de transmisión eléctrica en construcción, para evitar riesgos energéticos en la región durante los próximos meses."
+      ]
+    }
+  ],
+  "temas": [
+    { "id": "economia", "nombre": "Economía", "categoria": "Economía", "descripcion": "Impuestos, empleo y las decisiones económicas de la ciudad." },
+    { "id": "cultura", "nombre": "Cultura", "categoria": "Cultura", "descripcion": "Conciertos, festivales y planes culturales de Bogotá." },
+    { "id": "movilidad", "nombre": "Movilidad", "categoria": "Movilidad", "descripcion": "Metro, TransMilenio y los proyectos de transporte de la capital." },
+    { "id": "seguridad", "nombre": "Seguridad", "categoria": "Seguridad", "descripcion": "Operativos y noticias sobre la seguridad ciudadana." },
+    { "id": "ciudad", "nombre": "Ciudad", "categoria": "Ciudad", "descripcion": "Servicios públicos y decisiones que afectan el día a día de Bogotá." }
+  ],
+  "opiniones": [
+    { "autor": "Lector", "rol": "Suscriptor", "texto": "Un noticiero claro y directo, justo lo que necesitaba" },
+    { "autor": "Lector", "rol": "Suscriptor", "texto": "Me gusta cómo agrupan las noticias por temas" },
+    { "autor": "Lector", "rol": "Suscriptor", "texto": "El Noticazo se volvió mi primera fuente del día" }
+  ]
+}

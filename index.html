@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inicio – El Noticazo</title>
+  <meta name="description" content="El Noticazo: noticias claras y verificadas de Colombia y el mundo.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body data-page="inicio">
+  <a class="saltar" href="#principal">Saltar al contenido</a>
+  <header id="site-header" class="cabecera"></header>
+  <main id="principal" class="contenedor">
+    <section class="intro">
+      <h1>El Noticazo</h1>
+      <p>En un mundo donde todo cambia en segundos, encontrar noticias claras, verificadas y oportunas puede ser todo un reto. Aquí reunimos la actualidad nacional e internacional, la economía, la cultura y el deporte en un solo lugar, con rigor y sin rodeos.</p>
+    </section>
+
+    <section aria-labelledby="t-ultimas">
+      <h2 id="t-ultimas" class="titulo-rojo">Lo más relevante de la semana</h2>
+      <div id="ultimas" class="rejilla"></div>
+    </section>
+
+    <section aria-labelledby="t-temas" class="temas">
+      <h2 id="t-temas" class="titulo-rojo">Otros temas de interés</h2>
+      <ul id="temas-lista" class="temas-lista"></ul>
+      <a class="btn btn-indigo" href="noticias.html">Conoce más aquí</a>
+    </section>
+
+    <section id="opinion" aria-labelledby="t-opiniones">
+      <h2 id="t-opiniones" class="titulo-rojo">Opiniones de nuestros lectores</h2>
+      <div id="opiniones" class="rejilla"></div>
+
+      <form id="form-opinion" class="formulario" novalidate>
+        <h3>Déjanos tu opinión</h3>
+        <div class="campo">
+          <label for="o-nombre">Nombre</label>
+          <input id="o-nombre" name="nombre" data-campo autocomplete="given-name" aria-describedby="error-o-nombre">
+          <p class="error" id="error-o-nombre"></p>
+        </div>
+        <div class="campo">
+          <label for="o-opinion">Tu opinión</label>
+          <textarea id="o-opinion" name="opinion" rows="3" data-campo aria-describedby="error-o-opinion"></textarea>
+          <p class="error" id="error-o-opinion"></p>
+        </div>
+        <button class="btn btn-negro" type="submit">Publicar opinión</button>
+        <p id="estado-opinion" class="estado" role="status"></p>
+      </form>
+    </section>
+  </main>
+  <div id="site-cta" class="agradecimiento"></div>
+  <footer id="site-footer" class="pie"></footer>
+  <script type="module" src="js/main.js"></script>
+</body>
+</html>
